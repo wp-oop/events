@@ -1,6 +1,6 @@
 {
     "name": "wp-oop/events",
-    "description": "A [PSR-14][] wrapper for the WP hook system.",
+    "description": "A PSR-14 wrapper for the WP hook system.",
     "type": "library",
     "license": "MIT",
     "authors": [
