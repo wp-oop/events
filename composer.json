@@ -1,15 +1,19 @@
 {
-    "name": "dhii/wp-events",
-    "description": "A PSR-14 compliant event wrapper for WordPress.",
+    "name": "wp-oop/events",
+    "description": "A [PSR-14][] wrapper for the WP hook system.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Dhii",
-            "email": "development@dhii.co"
+            "role": "Organisation"
+        },
+        {
+            "name": "Anton Ukhanev",
+            "email": "xedin.unknown@gmail.com",
+            "role": "Developer"
         }
     ],
-    "prefer-stable": true,
     "minimum-stability": "dev",
     "require": {
         "php": "^5.4 | ^7.0",
@@ -35,11 +39,6 @@
         "psr-4": {
             "Dhii\\EventManager\\UnitTest\\" : "test/unit",
             "Dhii\\EventManager\\FuncTest\\" : "test/functional"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-develop": "0.3.x-dev"
         }
     }
 }
