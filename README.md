@@ -1,4 +1,6 @@
 # WP-OOP - Events
+![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/wp-oop/events)
+
 A [PSR-14][] wrapper for the WP hook system.
 
 ## Details
