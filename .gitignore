@@ -1,10 +1,9 @@
-/nbproject/private
 /vendor/
-/test/log/
-/test/coverage/
-/.idea/dictionaries/
-/.idea/codeStyles/
-/.idea/tasks.xml
+/build/
 /.idea/workspace.xml
-/.idea/deployment.xml
+/.idea/codeStyles/
+/.idea/inspectionProfiles/
 /.idea/misc.xml
+/.env
+
+/.phpunit.result.cache
