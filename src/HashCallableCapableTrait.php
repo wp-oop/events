@@ -1,8 +1,8 @@
 <?php
 
-namespace Dhii\EventManager;
+namespace WpOop\Events;
 
-use Dhii\Util\String\StringableInterface as Stringable;
+use Stringable;
 use Exception as RootException;
 use InvalidArgumentException;
 use OutOfRangeException;

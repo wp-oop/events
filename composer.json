@@ -16,29 +16,27 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^5.4 | ^7.0",
-        "dhii/psr-14": "^0.1",
-        "dhii/normalization-helper-base": "^0.1-alpha2",
-        "dhii/exception": "^0.1-alpha4",
-        "dhii/i18n-helper-base": "^0.1"
+        "php": "^7.2 | ^8.0",
+        "psr/event-dispatcher": "^1.0",
+        "dhii/event-interface": "^0.4"
     },
     "require-dev": {
-        "10up/wp_mock": "^0.1.1",
-        "doctrine/instantiator": ">=1.0.5 <1.1.0",
-        "dhii/php-cs-fixer-config": "^0.1",
-        "phpunit/phpunit": "^4.8",
+        "10up/wp_mock": "^0.4",
+        "phpunit/phpunit": "^8.0 | ^9.0",
         "ptrofimov/xpmock": "^1.1",
-        "dhii/stringable-interface": "^0.1"
+        "symfony/polyfill-php80": "^1.19",
+        "vimeo/psalm": "^4.0",
+        "slevomat/coding-standard": "^6.0"
     },
     "autoload": {
         "psr-4": {
-            "Dhii\\EventManager\\" : "src/"
+            "WpOop\\Events\\" : "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Dhii\\EventManager\\UnitTest\\" : "test/unit",
-            "Dhii\\EventManager\\FuncTest\\" : "test/functional"
+            "WpOop\\Events\\Tests\\Unit\\" : "tests/unit",
+            "WpOop\\Events\\Tests\\Func\\" : "tests/functional"
         }
     }
 }
